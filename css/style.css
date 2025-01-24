@@ -1,12 +1,35 @@
 body,
 html {
-  background-color: #242424;
+  background-color: #6c6060;
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: lighter;
   overflow-x: hidden;
 }
+.btn {
+  background-color: #9ca197; 
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  text-align: center; 
+  display: inline-block; 
+  text-decoration: none; 
+}
 
+.btn a {
+  color: white; 
+  text-decoration: none; 
+  display: block; 
+}
+
+.btn:hover {
+  background-color: #7f867b; 
+  transform: scale(1.05); 
+}
 @-webkit-keyframes bounceInDown {
   from,
   60%,
@@ -98,15 +121,6 @@ a:visited {
   color: #242424;
 }
 
-/* mouse over link */
-a:hover {
-  color: #00a25f;
-}
-
-/* selected link */
-a:active {
-  color: #00a25f;
-}
 
 .right_screen {
   position: relative;
@@ -342,15 +356,15 @@ a:active {
 }
 
 .piece {
-  height: 60%;
+  height: 92%;
   width: auto;
 }
 
 .white_square {
-  background-color: #deeaee;
+  background-color: #EEEED2;
 }
 .black_square {
-  background-color: #034f84;
+  background-color: #769656;
 }
 
 .top_left_square {

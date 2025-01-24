@@ -1067,7 +1067,9 @@ class Board extends React.Component {
                 <p className="medium_font">
                   Play against our friendly bot!&nbsp;&nbsp;
                   <a href="./how_to_play.html" target="_blank">
+                  <button class='btn'>
                     How to Play
+                  </button>
                   </a>
                 </p>
               </div>
